@@ -2,6 +2,8 @@ project (kvproto)
 
 cmake_minimum_required (VERSION 2.8.12)
 
+# set(Protobuf_PROTOC_EXECUTABLE "/Users/zhl/go/src/tikv/kvproto/protoc/bin/protoc")
+# set(Protobuf_PROTOC_EXECUTABLE "/usr/local/bin/protoc")
 set (CMAKE_CXX_STANDARD 17)
 
 if (CMAKE_VERSION VERSION_LESS "3.8.0")
